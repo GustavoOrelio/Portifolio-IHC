@@ -5,6 +5,5 @@ pages:
   artifacts:
     paths: public
   only: main
-  deploy-prod:
-    stage: deploy
+
   
