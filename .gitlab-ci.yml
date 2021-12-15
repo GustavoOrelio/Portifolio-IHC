@@ -2,7 +2,7 @@ image: python:latest
 
 pages:
   script:
-    - echo "Não estamos fazendo nd ainda"
+    - echo "Não estamos fazendo nd, AINDA"
   artifacts:
     paths:
       - public
