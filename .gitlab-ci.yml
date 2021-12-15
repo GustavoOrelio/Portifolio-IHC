@@ -1,5 +1,9 @@
 image: python:latest
 
+
+deploy-prod:
+  stage: deploy
+  
 pages:
   script:
     - echo "Não estamos fazendo nada"
@@ -9,6 +13,5 @@ pages:
   only:
     - main
 
-  deploy-prod:
-  stage: deploy
+  
   
