@@ -8,3 +8,7 @@ pages:
       - public
   only:
     - main
+
+  deploy-prod:
+  stage: deploy
+  
