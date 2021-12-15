@@ -1,12 +1,12 @@
-
-image: ruby:2.7.4
+image: python:latest
 
 pages:
   script:
-    - echo "Não estamos fazendo nada"
+    - echo "Não estamos fazendo nada, AINDA"
   artifacts:
     paths:
       - public
   only:
     - main
+
 
